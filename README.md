@@ -16,3 +16,6 @@ Simple To-Do List application built with JavaScript.
 ![Main Screen](screenshots/main.png)
 ![Task List](screenshots/list.png)
 ![Filters](screenshots/filters.png)
+
+## Live Demo
+https://giorgostsets.github.io/myTo-DoList/
