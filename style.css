@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    background: #344751;
+}
+
+.container{
+    background: #47616e;
+    padding: 20px;
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 1000px 80px rgb(32, 49, 55);
+}
+
+h1{
+    color: rgb(18, 32, 40);
+    text-align: center;
+}
+
+.input-group{
+    display: flex;
+    gap: 10px;
+}
+
+input{
+    background-color: #3a4951;
+    flex: 1;
+    padding: 8px;
+}
+
+input::placeholder{
+    color: black;
+}
+
+button{
+    background-color: #3a4951;
+    color: black;
+    font-weight : bold;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+li{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+li.completed span{
+    text-decoration: line-through;
+    text-decoration-color: rgb(45, 45, 45);
+    color:#12222a;
+}
+
+li span {
+    cursor: pointer;
+}
+
+li span:hover {
+    color: #aab7bd;
+}
+
+.deleteBtn{
+    background: #34434a;
+    border-radius: 5px;
+    padding: 4px 8px;
+}
+
+.filters{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.filter-btn {
+    padding: 6px 10px;
+    background: #6b7980;
+    cursor: pointer;
+}
+
+.filter-btn.active {
+    background: #333;
+    color: white;
+}
